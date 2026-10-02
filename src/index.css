@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-devanagari: 'Noto Sans Devanagari', 'Rozha One', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+}
+
+.font-marathi {
+  font-family: 'Noto Sans Devanagari', 'Rozha One', sans-serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #d4af37 0%, #f6e07b 45%, #b38728 70%, #fcf6ba 100%);
+}
+
+.gold-border {
+  border-image: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c) 1;
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #b38728 0%, #e5c158 50%, #996515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(245, 240, 230, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 140, 50, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180, 140, 50, 0.7);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Vishwakarma Jewellers AI WhatsApp Caller & Receptionist",
+  "description": "AI-powered WhatsApp caller, receptionist and CRM for Vishwakarma Jewellers Daryapur with Marathi, Hindi and English voice assistance, appointment booking, and catalogue delivery.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
